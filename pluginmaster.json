@@ -1,0 +1,26 @@
+[
+  {
+    "Author": "E.Ahmed",
+    "Name": "AetherCircuit",
+    "InternalName": "AetherCircuit",
+    "AssemblyVersion": "0.1.2.0",
+    "TestingAssemblyVersion": "0.1.2.0",
+    "Punchline": "FATE and Allied Society circuits.",
+    "Description": "Coordinates Lifestream, vnavmesh, BossMod, and Questionable to run configurable FATE and Allied Society circuits.",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://github.com/gipsem/AetherCircuit/releases/download/v0.1.2/AetherCircuit-v0.1.2.zip",
+    "DownloadLinkUpdate": "https://github.com/gipsem/AetherCircuit/releases/download/v0.1.2/AetherCircuit-v0.1.2.zip",
+    "DownloadLinkTesting": "https://github.com/gipsem/AetherCircuit/releases/download/v0.1.2/AetherCircuit-v0.1.2.zip",
+    "RepoUrl": "https://github.com/gipsem/AetherCircuit",
+    "LastUpdated": 1784779120,
+    "Tags": [
+      "FATE",
+      "Allied Society",
+      "Bicolor Gemstones",
+      "Automation"
+    ]
+  }
+]
