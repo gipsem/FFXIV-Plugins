@@ -1,17 +1,17 @@
 [
   {
     "ApplicableVersion": "any",
-    "AssemblyVersion": "0.1.3.0",
-    "Author": "E.Ahmed",
+    "AssemblyVersion": "0.1.4.0",
+    "Author": "gips",
     "DalamudApiLevel": 15,
     "Description": "Coordinates Lifestream, vnavmesh, BossMod, and Questionable to run configurable FATE and Allied Society circuits.",
-    "DownloadLinkInstall": "https://github.com/gipsem/AetherCircuit/releases/download/v0.1.3/AetherCircuit-v0.1.3.zip",
-    "DownloadLinkTesting": "https://github.com/gipsem/AetherCircuit/releases/download/v0.1.3/AetherCircuit-v0.1.3.zip",
-    "DownloadLinkUpdate": "https://github.com/gipsem/AetherCircuit/releases/download/v0.1.3/AetherCircuit-v0.1.3.zip",
+    "DownloadLinkInstall": "https://github.com/gipsem/AetherCircuit/releases/download/v0.1.4/AetherCircuit-v0.1.4.zip",
+    "DownloadLinkTesting": "https://github.com/gipsem/AetherCircuit/releases/download/v0.1.4/AetherCircuit-v0.1.4.zip",
+    "DownloadLinkUpdate": "https://github.com/gipsem/AetherCircuit/releases/download/v0.1.4/AetherCircuit-v0.1.4.zip",
     "InternalName": "AetherCircuit",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdated": 1784779375,
+    "LastUpdated": 1784780357,
     "Name": "AetherCircuit",
     "Punchline": "FATE and Allied Society circuits.",
     "RepoUrl": "https://github.com/gipsem/AetherCircuit",
@@ -21,6 +21,6 @@
       "Bicolor Gemstones",
       "Automation"
     ],
-    "TestingAssemblyVersion": "0.1.3.0"
+    "TestingAssemblyVersion": "0.1.4.0"
   }
 ]
