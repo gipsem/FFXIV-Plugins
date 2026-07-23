@@ -2,18 +2,18 @@
   {
     "AcceptsFeedback": true,
     "ApplicableVersion": "any",
-    "AssemblyVersion": "1.0.2.0",
+    "AssemblyVersion": "1.0.3.0",
     "Author": "gips",
     "CanUnloadAsync": false,
     "DalamudApiLevel": 15,
     "Description": "Coordinates Lifestream, vnavmesh, BossMod, Questionable, and TextAdvance to run configurable FATE and Allied Society circuits.",
-    "DownloadLinkInstall": "https://github.com/gipsem/AetherCircuit/releases/download/v1.0.2/AetherCircuit-v1.0.2.zip",
-    "DownloadLinkTesting": "https://github.com/gipsem/AetherCircuit/releases/download/v1.0.2/AetherCircuit-v1.0.2.zip",
-    "DownloadLinkUpdate": "https://github.com/gipsem/AetherCircuit/releases/download/v1.0.2/AetherCircuit-v1.0.2.zip",
+    "DownloadLinkInstall": "https://github.com/gipsem/AetherCircuit/releases/download/v1.0.3/AetherCircuit-v1.0.3.zip",
+    "DownloadLinkTesting": "https://github.com/gipsem/AetherCircuit/releases/download/v1.0.3/AetherCircuit-v1.0.3.zip",
+    "DownloadLinkUpdate": "https://github.com/gipsem/AetherCircuit/releases/download/v1.0.3/AetherCircuit-v1.0.3.zip",
     "InternalName": "AetherCircuit",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "LastUpdated": 1784832962,
+    "LastUpdated": 1784848684,
     "LoadPriority": 0,
     "LoadRequiredState": 0,
     "LoadSync": false,
@@ -26,6 +26,6 @@
       "Bicolor Gemstones",
       "Automation"
     ],
-    "TestingAssemblyVersion": "1.0.2.0"
+    "TestingAssemblyVersion": "1.0.3.0"
   }
 ]
