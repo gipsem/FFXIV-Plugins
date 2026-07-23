@@ -1,0 +1,40 @@
+name: Update plugin index
+
+on:
+  repository_dispatch:
+    types:
+      - plugin-release
+
+permissions:
+  contents: write
+
+jobs:
+  update-index:
+    name: Update index
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Update plugin metadata
+        shell: pwsh
+        env:
+          PLUGIN_JSON: ${{ toJson(github.event.client_payload.plugin) }}
+        run: |
+          $incoming = $env:PLUGIN_JSON | ConvertFrom-Json
+          $plugins = @(Get-Content pluginmaster.json -Raw | ConvertFrom-Json)
+          $plugins = @($plugins | Where-Object { $_.InternalName -ne $incoming.InternalName })
+          $plugins += $incoming
+          $plugins = @($plugins | Sort-Object Name)
+          $plugins | ConvertTo-Json -Depth 10 -AsArray | Set-Content pluginmaster.json -Encoding utf8
+
+      - name: Commit updated index
+        shell: pwsh
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pluginmaster.json
+          if (git diff --cached --quiet) { exit 0 }
+          git commit -m "Update ${{ github.event.client_payload.plugin.InternalName }} to ${{ github.event.client_payload.plugin.AssemblyVersion }}"
+          git push
